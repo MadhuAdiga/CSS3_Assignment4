@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>
+			Session 4: CSS3
+			Assignment – CSS3 Animation using transition
+		</title>
+
+		<style>
+		#wrapper { /* wrapper to contain the div and allow inlne positioning */
+			text-align: center;
+		}
+			.box {
+				display: table;
+				height:80px;
+				width: 80px;
+				margin: auto;
+				text-align: center;
+				border-radius:10px;
+				position: relative;
+				display: inline-flex;
+				margin-right:20px;
+			}	
+
+
+			p { /* paragraph styling to align it at the center of the div */
+				color: black;
+				display:table-cell;
+				vertical-align:middle;
+				margin-left: 25px;
+				margin-top: 28px;
+
+			}
+
+			#div1 {
+				
+				background: red; /* For browsers that do not support gradients */
+  				background: -webkit-linear-gradient(left, red, green); /* For Safari 5.1 to 6.0 */
+  				background: -o-linear-gradient(left, red,  green); /* For Opera 11.1 to 12.0 */
+  				background: -moz-linear-gradient(left, red,  green); /* For Firefox 3.6 to 15 */
+  				background: linear-gradient(left, red,  green); /* Standard syntax */
+
+			}
+
+			#div2 {
+  				background: red; /* For browsers that do not support gradients */
+  				background: -webkit-radial-gradient(circle at top, red, yellow, green); /* Safari */
+  				background: -o-radial-gradient(circle at top, red, yellow, green); /* Opera 11.6 to 12.0 */
+  				background: -moz-radial-gradient(circle at top, red, yellow, green); /* Firefox 3.6 to 15 */
+ 				background: radial-gradient(circle at top, red, yellow, green); /* Standard syntax */
+			}
+
+			#div3 {
+  				background: red; /* For browsers that do not support gradients */
+  				background: -webkit-radial-gradient(ellipse at  top, red, yellow, green); /* Safari */
+  				background: -o-radial-gradient(ellipse at top, red, yellow, green); /* Opera 11.6 to 12.0 */
+  				background: -moz-radial-gradient(ellipse at top, red, yellow, green); /* Firefox 3.6 to 15 */
+ 				background: radial-gradient(ellipse at top, red, yellow, green); /* Standard syntax */
+			}
+
+			
+		</style>
+	</head>
+
+	<body>
+	<div id="wrapper">
+		<div class= "box" id="div1">
+			<p>Box</p>
+		</div>
+		<div class= "box" id="div2">
+			<p>Box</p>
+		</div>
+		<div class= "box" id="div3">
+			<p>Box</p>
+		</div>
+		</div>
+	</body>
+
+</html>
